@@ -1,0 +1,134 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\u0430 \u0414\u0430\u0448\u0435\u0432\u0441\u043A\u0438\u0439\\Desktop\\\u041F\u043E\u043C\u043E\u0439\u043A\u0430\\Examen\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A8B2B7B3-D490-4ED3-AC2E-55248C14586A}|Examen\\Examen.csproj|c:\\users\\\u0434\u0430\u043D\u0438\u043B\u0430 \u0434\u0430\u0448\u0435\u0432\u0441\u043A\u0438\u0439\\desktop\\\u043F\u043E\u043C\u043E\u0439\u043A\u0430\\examen\\examen\\wwwroot\\css\\mycss.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A8B2B7B3-D490-4ED3-AC2E-55248C14586A}|Examen\\Examen.csproj|solutionrelative:examen\\wwwroot\\css\\mycss.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8B2B7B3-D490-4ED3-AC2E-55248C14586A}|Examen\\Examen.csproj|c:\\users\\\u0434\u0430\u043D\u0438\u043B\u0430 \u0434\u0430\u0448\u0435\u0432\u0441\u043A\u0438\u0439\\desktop\\\u043F\u043E\u043C\u043E\u0439\u043A\u0430\\examen\\examen\\examen.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A8B2B7B3-D490-4ED3-AC2E-55248C14586A}|Examen\\Examen.csproj|solutionrelative:examen\\examen.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8B2B7B3-D490-4ED3-AC2E-55248C14586A}|Examen\\Examen.csproj|c:\\users\\\u0434\u0430\u043D\u0438\u043B\u0430 \u0434\u0430\u0448\u0435\u0432\u0441\u043A\u0438\u0439\\desktop\\\u043F\u043E\u043C\u043E\u0439\u043A\u0430\\examen\\examen\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A8B2B7B3-D490-4ED3-AC2E-55248C14586A}|Examen\\Examen.csproj|solutionrelative:examen\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8B2B7B3-D490-4ED3-AC2E-55248C14586A}|Examen\\Examen.csproj|c:\\users\\\u0434\u0430\u043D\u0438\u043B\u0430 \u0434\u0430\u0448\u0435\u0432\u0441\u043A\u0438\u0439\\desktop\\\u043F\u043E\u043C\u043E\u0439\u043A\u0430\\examen\\examen\\shared\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A8B2B7B3-D490-4ED3-AC2E-55248C14586A}|Examen\\Examen.csproj|solutionrelative:examen\\shared\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8B2B7B3-D490-4ED3-AC2E-55248C14586A}|Examen\\Examen.csproj|c:\\users\\\u0434\u0430\u043D\u0438\u043B\u0430 \u0434\u0430\u0448\u0435\u0432\u0441\u043A\u0438\u0439\\desktop\\\u043F\u043E\u043C\u043E\u0439\u043A\u0430\\examen\\examen\\pages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A8B2B7B3-D490-4ED3-AC2E-55248C14586A}|Examen\\Examen.csproj|solutionrelative:examen\\pages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8B2B7B3-D490-4ED3-AC2E-55248C14586A}|Examen\\Examen.csproj|c:\\users\\\u0434\u0430\u043D\u0438\u043B\u0430 \u0434\u0430\u0448\u0435\u0432\u0441\u043A\u0438\u0439\\desktop\\\u043F\u043E\u043C\u043E\u0439\u043A\u0430\\examen\\examen\\shared\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A8B2B7B3-D490-4ED3-AC2E-55248C14586A}|Examen\\Examen.csproj|solutionrelative:examen\\shared\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8B2B7B3-D490-4ED3-AC2E-55248C14586A}|Examen\\Examen.csproj|c:\\users\\\u0434\u0430\u043D\u0438\u043B\u0430 \u0434\u0430\u0448\u0435\u0432\u0441\u043A\u0438\u0439\\desktop\\\u043F\u043E\u043C\u043E\u0439\u043A\u0430\\examen\\examen\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8B2B7B3-D490-4ED3-AC2E-55248C14586A}|Examen\\Examen.csproj|solutionrelative:examen\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "mycss.css",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\u0430 \u0414\u0430\u0448\u0435\u0432\u0441\u043A\u0438\u0439\\Desktop\\\u041F\u043E\u043C\u043E\u0439\u043A\u0430\\Examen\\Examen\\wwwroot\\css\\mycss.css",
+              "RelativeDocumentMoniker": "Examen\\wwwroot\\css\\mycss.css",
+              "ToolTip": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\u0430 \u0414\u0430\u0448\u0435\u0432\u0441\u043A\u0438\u0439\\Desktop\\\u041F\u043E\u043C\u043E\u0439\u043A\u0430\\Examen\\Examen\\wwwroot\\css\\mycss.css",
+              "RelativeToolTip": "Examen\\wwwroot\\css\\mycss.css",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAADEAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2023-12-10T18:04:17.058Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Examen.csproj",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\u0430 \u0414\u0430\u0448\u0435\u0432\u0441\u043A\u0438\u0439\\Desktop\\\u041F\u043E\u043C\u043E\u0439\u043A\u0430\\Examen\\Examen\\Examen.csproj",
+              "RelativeDocumentMoniker": "Examen\\Examen.csproj",
+              "ToolTip": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\u0430 \u0414\u0430\u0448\u0435\u0432\u0441\u043A\u0438\u0439\\Desktop\\\u041F\u043E\u043C\u043E\u0439\u043A\u0430\\Examen\\Examen\\Examen.csproj",
+              "RelativeToolTip": "Examen\\Examen.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-02-15T06:08:11.963Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "index.html",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\u0430 \u0414\u0430\u0448\u0435\u0432\u0441\u043A\u0438\u0439\\Desktop\\\u041F\u043E\u043C\u043E\u0439\u043A\u0430\\Examen\\Examen\\wwwroot\\index.html",
+              "RelativeDocumentMoniker": "Examen\\wwwroot\\index.html",
+              "ToolTip": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\u0430 \u0414\u0430\u0448\u0435\u0432\u0441\u043A\u0438\u0439\\Desktop\\\u041F\u043E\u043C\u043E\u0439\u043A\u0430\\Examen\\Examen\\wwwroot\\index.html",
+              "RelativeToolTip": "Examen\\wwwroot\\index.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-01-03T19:31:12.568Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.razor",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\u0430 \u0414\u0430\u0448\u0435\u0432\u0441\u043A\u0438\u0439\\Desktop\\\u041F\u043E\u043C\u043E\u0439\u043A\u0430\\Examen\\Examen\\Pages\\Index.razor",
+              "RelativeDocumentMoniker": "Examen\\Pages\\Index.razor",
+              "ToolTip": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\u0430 \u0414\u0430\u0448\u0435\u0432\u0441\u043A\u0438\u0439\\Desktop\\\u041F\u043E\u043C\u043E\u0439\u043A\u0430\\Examen\\Examen\\Pages\\Index.razor",
+              "RelativeToolTip": "Examen\\Pages\\Index.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADcBAABhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2023-12-31T15:20:13.698Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\u0430 \u0414\u0430\u0448\u0435\u0432\u0441\u043A\u0438\u0439\\Desktop\\\u041F\u043E\u043C\u043E\u0439\u043A\u0430\\Examen\\Examen\\Program.cs",
+              "RelativeDocumentMoniker": "Examen\\Program.cs",
+              "ToolTip": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\u0430 \u0414\u0430\u0448\u0435\u0432\u0441\u043A\u0438\u0439\\Desktop\\\u041F\u043E\u043C\u043E\u0439\u043A\u0430\\Examen\\Examen\\Program.cs",
+              "RelativeToolTip": "Examen\\Program.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-10T09:07:04.323Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MainLayout.razor",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\u0430 \u0414\u0430\u0448\u0435\u0432\u0441\u043A\u0438\u0439\\Desktop\\\u041F\u043E\u043C\u043E\u0439\u043A\u0430\\Examen\\Examen\\Shared\\MainLayout.razor",
+              "RelativeDocumentMoniker": "Examen\\Shared\\MainLayout.razor",
+              "ToolTip": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\u0430 \u0414\u0430\u0448\u0435\u0432\u0441\u043A\u0438\u0439\\Desktop\\\u041F\u043E\u043C\u043E\u0439\u043A\u0430\\Examen\\Examen\\Shared\\MainLayout.razor",
+              "RelativeToolTip": "Examen\\Shared\\MainLayout.razor",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAAIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2023-12-08T16:03:38.169Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "NavMenu.razor",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\u0430 \u0414\u0430\u0448\u0435\u0432\u0441\u043A\u0438\u0439\\Desktop\\\u041F\u043E\u043C\u043E\u0439\u043A\u0430\\Examen\\Examen\\Shared\\NavMenu.razor",
+              "RelativeDocumentMoniker": "Examen\\Shared\\NavMenu.razor",
+              "ToolTip": "C:\\Users\\\u0414\u0430\u043D\u0438\u043B\u0430 \u0414\u0430\u0448\u0435\u0432\u0441\u043A\u0438\u0439\\Desktop\\\u041F\u043E\u043C\u043E\u0439\u043A\u0430\\Examen\\Examen\\Shared\\NavMenu.razor",
+              "RelativeToolTip": "Examen\\Shared\\NavMenu.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2023-12-08T16:03:38.173Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,176 @@
+﻿@page "/counter"
+@using System.Text.RegularExpressions;
+@using System.ComponentModel.DataAnnotations;
+@using System.Text;
+
+<PageTitle>ContainsChars28.11.2023</PageTitle>
+
+<h1>Задание выглядит следующим образом:</h1>
+
+<p role="status">
+    1. Пользователь вводит в программу две строки <br>
+    2. Программа должна найти наибольшее количество идущих подряд одинаковых символов. Например, пользователь вводит слова: «приключение» и «ключи». Повторяющиеся символы КЛЮЧ.
+</p>
+<EditForm Model="@model" >
+ <MudPaper Class="pa-4">
+     <MudForm>
+            <MudTextField Label="Input..." For="@(() => model.str1)" Variant=Variant.Filled @bind-Value="model.str1"></MudTextField>
+            <MudTextField Label="Input..." For="@(() => model.str2)" Variant=Variant.Filled @bind-Value="model.str2"></MudTextField>
+        <div class="d-flex align-center justify-space-between">
+                <MudButton Variant="Variant.Filled" Style="background-color:DeepSkyBlue;color:white; font-weight:bold; " OnClick="ChangeString" Class="ml-auto mr-auto mt-5">Вывести ответ</MudButton>
+        </div>
+     </MudForm>
+     <h3>Результат: @result</h3>
+ </MudPaper>
+</EditForm>
+
+<MudExpansionPanels>
+    <MudExpansionPanel >
+        <TitleContent>
+            <h4> <strong> Вы можете посмотреть код здесь...</strong></h4>
+        </TitleContent>
+         <ChildContent>
+            @_bigAsyncContent
+         </ChildContent>
+    </MudExpansionPanel>
+</MudExpansionPanels>
+
+
+
+
+
+@code {
+
+    static string result;
+    string[] errors = { };
+    MudTextField<string> pwField1;
+
+    MyClass model = new MyClass();
+
+    public class MyClass
+    {
+        [Required(ErrorMessage ="Это поле необходимо для заполнения")]
+        public string str1 { get; set; }
+        [Required(ErrorMessage = "Это поле необходимо для заполнения")]
+        public string str2 { get; set; }
+    }
+
+    private RenderFragment _bigAsyncContent = __builder =>
+    {
+        <div sstyle="color:darkblue;">
+        // str2 += " "; <br>
+        // List&lt;string> arrResulst = new List&lt;string>();<br>
+            // arrResulst.Add("");<br>
+            // int index = 1;<br>
+        // int indexArr = 0;<br>
+            // string clone1 = "";<br>
+            // StringBuilder clone = new StringBuilder(str1); создаю, потому что не имею прямого доступа перезаписи символ<br>
+            // for (int i = 0; i &lt; str2.Length - 1; i++)<br>
+            // {<br>
+            //     clone1 = "" + str2[i]; //преобразую char в строку<br>
+            //     if (str1.IndexOf(clone1) != -1) Проверяю, есть ли данный символ на наибольшей строке<br>
+            //     {<br>
+            //         while (str1.IndexOf(clone1) != -1) //Если есть, то прибавляю к этому символу следующий и ищу вхождение<br>
+            //         {<br>
+
+            //             if (index + i == str2.Length) //проверяю, чтобы index не вышел за пределы длинны массива<br>
+            //                 break;<br>
+            //             else<br>
+            //             {<br>
+            //                 clone1 += str2[i + index];<br>
+            //                 ++index;<br>
+            //             }<br>
+            //         }<br>
+
+            //         arrResulst[indexArr] = clone1.Substring(0, clone1.Length - 1); // записываю результат, отсекая последний элемент, так как он лишний и именно с ним на конце не нашлось ни одного вхождения<br>
+            //         ++indexArr;<br>
+            //         arrResulst.Add("");<br>
+            //         index = 1;<br>
+            //     }<br>
+            // }<br>
+            // switch (arrResulst.Count)<br>
+        // {
+            //     case 0:<br>
+            //         result = "Вхождений не обнаружено!"; break;<br>
+            //     case 1:<br>
+            //         result = arrResulst.First(); break;<br>
+            //     default:<br>
+            //         arrResulst.Sort((x, y) => x.Length.CompareTo(y.Length)); //Здесь используется делегат Comparison&lt;T>, который принимает в себя анонимный метод,<br>
+            //                                                                  //если x>y return 1<br>
+            //                                                                  //если x&lt;y return -1<br>
+            //                                                                  //если x=y return 0<br>
+            //         result = arrResulst.Last(); //получаю последний наибольшей длинны последовательность<br>
+            //         break;<br>
+        // }
+        </div>
+    };
+
+    private void ChangeString()
+    {
+        if (model.str1 != "" && model.str2 != "")
+        {
+            if (model.str1.Length > model.str2.Length)
+            {
+                if (model.str1.Contains(model.str2))
+                    result = model.str1;
+                else
+                    MyFunction(model.str1, model.str2);
+            }
+            else
+            {
+                if (model.str2.Contains(model.str1))
+                    result = model.str1;
+
+                else
+                    MyFunction(model.str2, model.str1);
+            }
+        }
+    }
+    private static void MyFunction(string str1, string str2)
+    {
+        str2 += " ";
+        List<string> arrResulst = new List<string>();
+        arrResulst.Add("");
+        int index = 1;
+        int indexArr = 0;
+        string clone1 = "";
+        StringBuilder clone = new StringBuilder(str1); //создаю, потому что не имею прямого доступа перезаписи символ
+        for (int i = 0; i < str2.Length - 1; i++)
+        {
+            clone1 = "" + str2[i]; //преобразую char в строку
+            if (str1.IndexOf(clone1) != -1) //Проверяю, есть ли данный символ на наибольшей строке
+            {
+                while (str1.IndexOf(clone1) != -1) //Если есть, то прибавляю к этому символу следующий и ищу вхождение
+                {
+
+                    if (index + i == str2.Length) //проверяю, чтобы index не вышел за пределы длинны массива
+                        break;
+                    else
+                    {
+                        clone1 += str2[i + index];
+                        ++index;
+                    }
+                }
+
+                arrResulst[indexArr] = clone1.Substring(0, clone1.Length - 1); // записываю результат, отсекая последний элемент, так как он лишний и именно с ним на конце не нашлось ни одного вхождения
+                ++indexArr;
+                arrResulst.Add("");
+                index = 1;
+            }
+        }
+        switch (arrResulst.Count)
+        {
+            case 0:
+                result = "Вхождений не обнаружено!"; break;
+            case 1:
+                result = arrResulst.First(); break;
+            default:
+                arrResulst.Sort((x, y) => x.Length.CompareTo(y.Length)); //Здесь используется делегат Comparison<T>, который принимает в себя анонимный метод,
+                                                                         //если x>y return 1
+                                                                         //если x<y return -1
+                                                                         //если x=y return 0
+                result = arrResulst.Last(); //получаю последний наибольшей длинны последовательность
+                break;
+        }
+    }
+}

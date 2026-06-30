@@ -1,0 +1,159 @@
+﻿@implements IBrowserViewportObserver
+@implements IAsyncDisposable
+
+<MudAppBar Style="display:flex;justify-content:center;" Class="menu" Fixed="true" Dense="true">
+
+    <nav class="" >
+        <div class="nav-item px-3">
+            <MudHidden Breakpoint=Breakpoint.LgAndUp Invert="true">
+            <NavLink class="nav-link" href="#5" Match="NavLinkMatch.All">
+                <MudImage ObjectFit=ObjectFit.Fill  Src="../img/LogoReal.png" Alt="LogoCiber-Vytich"  />
+            </NavLink>
+            </MudHidden>
+            <MudHidden Breakpoint=Breakpoint.MdAndDown Invert="true">
+                <NavLink class="nav-link" href="#5" Match="NavLinkMatch.All">
+                    <MudImage ObjectFit=ObjectFit.Fill Src="img/MicroLogo.png" Alt="MicroLogoCiber-Vytich" />
+                </NavLink>
+            </MudHidden>
+        </div>
+    </nav>
+    <MudSpacer />
+    <MudHidden Breakpoint=Breakpoint.Xs Invert="false">
+    <nav class="">
+        <div class="nav-item px-3">
+            <NavLink class="nav-link active" href="#1" Match="NavLinkMatch.All">
+                <span class="bi bi-check2-circle" aria-hidden="true"></span> Сделать заказ👨‍💻
+            </NavLink>
+        </div>
+    </nav>
+    </MudHidden>
+
+    <MudHidden Breakpoint=Breakpoint.SmAndUp Invert="true">
+    <nav class="">
+        <div class="nav-item px-3">
+            <NavLink class="nav-link" href="#14" Match="NavLinkMatch.All">
+                <span class="bi bi-robot" aria-hidden="true"></span> Чат-боты
+            </NavLink>
+        </div>
+    </nav>
+    </MudHidden>
+        @if (_VidibleElement==false)
+        {
+            <nav class="">
+                <div class="nav-item px-3">
+                    <NavLink class="nav-link" href="#14" Match="NavLinkMatch.All">
+                        <span class="bi bi-card-list" aria-hidden="true"></span> Сайты
+                    </NavLink>
+                </div>
+            </nav>
+        }
+    <MudHidden Breakpoint=Breakpoint.MdAndUp Invert="true">
+    <nav class="">
+        <div class="nav-item px-3">
+            <NavLink class="nav-link" href="#2" Match="NavLinkMatch.All">
+                <span class="bi bi-chat-heart-fill" aria-hidden="true"></span> О нас
+            </NavLink>
+        </div>
+    </nav>
+    </MudHidden>
+    <nav class="">
+        <div class="nav-item px-3">
+            @if (_width < 600)
+            {
+                <MudIconButton Icon="@Icons.Material.Filled.Menu" Color="Color.Inherit" Edge="Edge.Start" OnClick="@(() => OpenDrawer(Anchor.End))" />
+            } else
+            {
+            <MudButton Variant="Variant.Text"  Style="color:white" OnClick="@(() => OpenDrawer(Anchor.End))" StartIcon="@Icons.Material.Filled.Menu" >Ещё</MudButton>
+            }
+        </div>
+    </nav>        
+
+</MudAppBar>
+
+
+
+<MudDrawer Style="position:fixed" Color="Color.Primary" @bind-Open="@open" Anchor="@anchor"  Elevation="1" Variant="@DrawerVariant.Temporary">
+    <MudDrawerHeader>
+        <MudText Typo="Typo.h6">Меню</MudText>
+    </MudDrawerHeader>
+    <MudNavMenu>
+        <div class="nav-item px-3">
+            @if(_width<600){
+                <NavLink class="nav-link" href="#1" Match="NavLinkMatch.All">
+                    <span class="bi bi-check2-circle" aria-hidden="true"></span> Сделать заказ👨‍💻
+                </NavLink>
+            }
+         <MudHidden Breakpoint=Breakpoint.Xs Invert="true">
+        <NavLink class="nav-link" href="#14" Match="NavLinkMatch.All">
+            <span class="bi bi-robot" aria-hidden="true"></span> Чат-боты
+        </NavLink>
+            </MudHidden>
+            @if (_VidibleElement)
+            {
+                <NavLink class="nav-link" href="#14" Match="NavLinkMatch.All">
+                    <span class="bi bi-card-list" aria-hidden="true"></span> Сайты
+                </NavLink>
+            }
+        <MudHidden Breakpoint=Breakpoint.SmAndDown Invert="true">
+        <NavLink class="nav-link" href="#2" Match="NavLinkMatch.All">
+            <span class="bi bi-chat-heart-fill" aria-hidden="true"></span> О нас
+        </NavLink>
+        </MudHidden>
+        </div>
+    </MudNavMenu>
+</MudDrawer>
+
+@code {
+    [Inject]
+    private IBrowserViewportService BrowserViewportService { get; set; }
+
+    private int _width = 0;
+    private int _height = 0;
+    private bool _VidibleElement = false;
+
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+    if (firstRender)
+    {
+        await BrowserViewportService.SubscribeAsync(this, fireImmediately: true);
+    }
+
+    await base.OnAfterRenderAsync(firstRender);
+    }
+
+    public async ValueTask DisposeAsync() => await BrowserViewportService.UnsubscribeAsync(this);
+
+    Guid IBrowserViewportObserver.Id { get; } = Guid.NewGuid();
+
+    ResizeOptions IBrowserViewportObserver.ResizeOptions { get; } = new()
+    {
+        ReportRate = 50,
+        NotifyOnBreakpointOnly = false
+    };
+
+    Task IBrowserViewportObserver.NotifyBrowserViewportChangeAsync(BrowserViewportEventArgs browserViewportEventArgs)
+    {
+    _width = browserViewportEventArgs.BrowserWindowSize.Width;
+    _height = browserViewportEventArgs.BrowserWindowSize.Height;
+    if (_width <= 750)
+    { _VidibleElement = true; } //вот тут за сайты
+    else
+    {
+        _VidibleElement = false;
+    }
+
+    return InvokeAsync(StateHasChanged);
+    }
+
+    bool open = false;
+    Anchor anchor;
+
+    void OpenDrawer(Anchor anchor)
+    {
+        if (open == false)
+            open = true;
+        else
+            open = false;
+        this.anchor = anchor;
+    }
+}

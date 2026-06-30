@@ -1,0 +1,305 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Данила Дашевский\\Desktop\\Помойка\\Examen\\Examen\\bin\\Debug\\net7.0\\wwwroot\\_framework\\blazor.webassembly.js",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js"
+    },
+    {
+      "Id": "C:\\Users\\Данила Дашевский\\Desktop\\Помойка\\Examen\\Examen\\obj\\Debug\\net7.0\\compressed\\hkt4y9iw9m.gz",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js.gz"
+    },
+    {
+      "Id": "C:\\Users\\Данила Дашевский\\Desktop\\Помойка\\Examen\\Examen\\obj\\Debug\\net7.0\\scopedcss\\bundle\\Examen.styles.css",
+      "PackagePath": "staticwebassets\\Examen.styles.css"
+    },
+    {
+      "Id": "C:\\Users\\Данила Дашевский\\Desktop\\Помойка\\Examen\\Examen\\obj\\Debug\\net7.0\\service-worker-assets.js",
+      "PackagePath": "staticwebassets\\service-worker-assets.js"
+    },
+    {
+      "Id": "C:\\Users\\Данила Дашевский\\Desktop\\Помойка\\Examen\\Examen\\obj\\Debug\\net7.0\\service-worker\\service-worker.published.js",
+      "PackagePath": "staticwebassets\\service-worker.js"
+    },
+    {
+      "Id": "C:\\Users\\Данила Дашевский\\Desktop\\Помойка\\Examen\\Examen\\wwwroot\\css\\app.css",
+      "PackagePath": "staticwebassets\\css\\app.css"
+    },
+    {
+      "Id": "C:\\Users\\Данила Дашевский\\Desktop\\Помойка\\Examen\\Examen\\wwwroot\\css\\bootstrap-icons\\bootstrap-icons.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-icons\\bootstrap-icons.css"
+    },
+    {
+      "Id": "C:\\Users\\Данила Дашевский\\Desktop\\Помойка\\Examen\\Examen\\wwwroot\\css\\bootstrap-icons\\bootstrap-icons.json",
+      "PackagePath": "staticwebassets\\css\\bootstrap-icons\\bootstrap-icons.json"
+    },
+    {
+      "Id": "C:\\Users\\Данила Дашевский\\Desktop\\Помойка\\Examen\\Examen\\wwwroot\\css\\bootstrap-icons\\bootstrap-icons.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-icons\\bootstrap-icons.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Данила Дашевский\\Desktop\\Помойка\\Examen\\Examen\\wwwroot\\css\\bootstrap-icons\\bootstrap-icons.scss",
+      "PackagePath": "staticwebassets\\css\\bootstrap-icons\\bootstrap-icons.scss"
+    },
+    {
+      "Id": "C:\\Users\\Данила Дашевский\\Desktop\\Помойка\\Examen\\Examen\\wwwroot\\css\\bootstrap-icons\\fonts\\bootstrap-icons.woff",
+      "PackagePath": "staticwebassets\\css\\bootstrap-icons\\fonts\\bootstrap-icons.woff"
+    },
+    {
+      "Id": "C:\\Users\\Данила Дашевский\\Desktop\\Помойка\\Examen\\Examen\\wwwroot\\css\\bootstrap-icons\\fonts\\bootstrap-icons.woff2",
+      "PackagePath": "staticwebassets\\css\\bootstrap-icons\\fonts\\bootstrap-icons.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Данила Дашевский\\Desktop\\Помойка\\Examen\\Examen\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Данила Дашевский\\Desktop\\Помойка\\Examen\\Examen\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Данила Дашевский\\Desktop\\Помойка\\Examen\\Examen\\wwwroot\\css\\mycss.css",
+      "PackagePath": "staticwebassets\\css\\mycss.css"
+    },
+    {
+      "Id": "C:\\Users\\Данила Дашевский\\Desktop\\Помойка\\Examen\\Examen\\wwwroot\\css\\mystyle.css",
+      "PackagePath": "staticwebassets\\css\\mystyle.css"
+    },
+    {
+      "Id": "C:\\Users\\Данила Дашевский\\Desktop\\Помойка\\Examen\\Examen\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "C:\\Users\\Данила Дашевский\\Desktop\\Помойка\\Examen\\Examen\\wwwroot\\icon-192.png",
+      "PackagePath": "staticwebassets\\icon-192.png"
+    },
+    {
+      "Id": "C:\\Users\\Данила Дашевский\\Desktop\\Помойка\\Examen\\Examen\\wwwroot\\icon-512.png",
+      "PackagePath": "staticwebassets\\icon-512.png"
+    },
+    {
+      "Id": "C:\\Users\\Данила Дашевский\\Desktop\\Помойка\\Examen\\Examen\\wwwroot\\img\\AboutMe.png",
+      "PackagePath": "staticwebassets\\img\\AboutMe.png"
+    },
+    {
+      "Id": "C:\\Users\\Данила Дашевский\\Desktop\\Помойка\\Examen\\Examen\\wwwroot\\img\\AboutMe.webp",
+      "PackagePath": "staticwebassets\\img\\AboutMe.webp"
+    },
+    {
+      "Id": "C:\\Users\\Данила Дашевский\\Desktop\\Помойка\\Examen\\Examen\\wwwroot\\img\\Atom.png",
+      "PackagePath": "staticwebassets\\img\\Atom.png"
+    },
+    {
+      "Id": "C:\\Users\\Данила Дашевский\\Desktop\\Помойка\\Examen\\Examen\\wwwroot\\img\\Between.png",
+      "PackagePath": "staticwebassets\\img\\Between.png"
+    },
+    {
+      "Id": "C:\\Users\\Данила Дашевский\\Desktop\\Помойка\\Examen\\Examen\\wwwroot\\img\\Between.webp",
+      "PackagePath": "staticwebassets\\img\\Between.webp"
+    },
+    {
+      "Id": "C:\\Users\\Данила Дашевский\\Desktop\\Помойка\\Examen\\Examen\\wwwroot\\img\\BigLogo.png",
+      "PackagePath": "staticwebassets\\img\\BigLogo.png"
+    },
+    {
+      "Id": "C:\\Users\\Данила Дашевский\\Desktop\\Помойка\\Examen\\Examen\\wwwroot\\img\\BigLogo.svg",
+      "PackagePath": "staticwebassets\\img\\BigLogo.svg"
+    },
+    {
+      "Id": "C:\\Users\\Данила Дашевский\\Desktop\\Помойка\\Examen\\Examen\\wwwroot\\img\\ChatBotTitle.jpg",
+      "PackagePath": "staticwebassets\\img\\ChatBotTitle.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Данила Дашевский\\Desktop\\Помойка\\Examen\\Examen\\wwwroot\\img\\ChatBotTitle.webp",
+      "PackagePath": "staticwebassets\\img\\ChatBotTitle.webp"
+    },
+    {
+      "Id": "C:\\Users\\Данила Дашевский\\Desktop\\Помойка\\Examen\\Examen\\wwwroot\\img\\CiberVitych.png",
+      "PackagePath": "staticwebassets\\img\\CiberVitych.png"
+    },
+    {
+      "Id": "C:\\Users\\Данила Дашевский\\Desktop\\Помойка\\Examen\\Examen\\wwwroot\\img\\CiberVytich.png",
+      "PackagePath": "staticwebassets\\img\\CiberVytich.png"
+    },
+    {
+      "Id": "C:\\Users\\Данила Дашевский\\Desktop\\Помойка\\Examen\\Examen\\wwwroot\\img\\Corner.png",
+      "PackagePath": "staticwebassets\\img\\Corner.png"
+    },
+    {
+      "Id": "C:\\Users\\Данила Дашевский\\Desktop\\Помойка\\Examen\\Examen\\wwwroot\\img\\Feedback.png",
+      "PackagePath": "staticwebassets\\img\\Feedback.png"
+    },
+    {
+      "Id": "C:\\Users\\Данила Дашевский\\Desktop\\Помойка\\Examen\\Examen\\wwwroot\\img\\First.jpg",
+      "PackagePath": "staticwebassets\\img\\First.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Данила Дашевский\\Desktop\\Помойка\\Examen\\Examen\\wwwroot\\img\\First.webp",
+      "PackagePath": "staticwebassets\\img\\First.webp"
+    },
+    {
+      "Id": "C:\\Users\\Данила Дашевский\\Desktop\\Помойка\\Examen\\Examen\\wwwroot\\img\\GitHub.png",
+      "PackagePath": "staticwebassets\\img\\GitHub.png"
+    },
+    {
+      "Id": "C:\\Users\\Данила Дашевский\\Desktop\\Помойка\\Examen\\Examen\\wwwroot\\img\\GrateFullIK6.png",
+      "PackagePath": "staticwebassets\\img\\GrateFullIK6.png"
+    },
+    {
+      "Id": "C:\\Users\\Данила Дашевский\\Desktop\\Помойка\\Examen\\Examen\\wwwroot\\img\\GrateFullIK6.webp",
+      "PackagePath": "staticwebassets\\img\\GrateFullIK6.webp"
+    },
+    {
+      "Id": "C:\\Users\\Данила Дашевский\\Desktop\\Помойка\\Examen\\Examen\\wwwroot\\img\\Logo.png",
+      "PackagePath": "staticwebassets\\img\\Logo.png"
+    },
+    {
+      "Id": "C:\\Users\\Данила Дашевский\\Desktop\\Помойка\\Examen\\Examen\\wwwroot\\img\\LogoReal.png",
+      "PackagePath": "staticwebassets\\img\\LogoReal.png"
+    },
+    {
+      "Id": "C:\\Users\\Данила Дашевский\\Desktop\\Помойка\\Examen\\Examen\\wwwroot\\img\\MacrosTitle.png",
+      "PackagePath": "staticwebassets\\img\\MacrosTitle.png"
+    },
+    {
+      "Id": "C:\\Users\\Данила Дашевский\\Desktop\\Помойка\\Examen\\Examen\\wwwroot\\img\\MacrosTitle.webp",
+      "PackagePath": "staticwebassets\\img\\MacrosTitle.webp"
+    },
+    {
+      "Id": "C:\\Users\\Данила Дашевский\\Desktop\\Помойка\\Examen\\Examen\\wwwroot\\img\\MicroLogo.png",
+      "PackagePath": "staticwebassets\\img\\MicroLogo.png"
+    },
+    {
+      "Id": "C:\\Users\\Данила Дашевский\\Desktop\\Помойка\\Examen\\Examen\\wwwroot\\img\\MyPlanet.png",
+      "PackagePath": "staticwebassets\\img\\MyPlanet.png"
+    },
+    {
+      "Id": "C:\\Users\\Данила Дашевский\\Desktop\\Помойка\\Examen\\Examen\\wwwroot\\img\\MyPlanet.svg",
+      "PackagePath": "staticwebassets\\img\\MyPlanet.svg"
+    },
+    {
+      "Id": "C:\\Users\\Данила Дашевский\\Desktop\\Помойка\\Examen\\Examen\\wwwroot\\img\\OstroVaTitle.png",
+      "PackagePath": "staticwebassets\\img\\OstroVaTitle.png"
+    },
+    {
+      "Id": "C:\\Users\\Данила Дашевский\\Desktop\\Помойка\\Examen\\Examen\\wwwroot\\img\\OstroVaTitle.webp",
+      "PackagePath": "staticwebassets\\img\\OstroVaTitle.webp"
+    },
+    {
+      "Id": "C:\\Users\\Данила Дашевский\\Desktop\\Помойка\\Examen\\Examen\\wwwroot\\img\\Page1.png",
+      "PackagePath": "staticwebassets\\img\\Page1.png"
+    },
+    {
+      "Id": "C:\\Users\\Данила Дашевский\\Desktop\\Помойка\\Examen\\Examen\\wwwroot\\img\\Page2.png",
+      "PackagePath": "staticwebassets\\img\\Page2.png"
+    },
+    {
+      "Id": "C:\\Users\\Данила Дашевский\\Desktop\\Помойка\\Examen\\Examen\\wwwroot\\img\\Page2.webp",
+      "PackagePath": "staticwebassets\\img\\Page2.webp"
+    },
+    {
+      "Id": "C:\\Users\\Данила Дашевский\\Desktop\\Помойка\\Examen\\Examen\\wwwroot\\img\\Page3.png",
+      "PackagePath": "staticwebassets\\img\\Page3.png"
+    },
+    {
+      "Id": "C:\\Users\\Данила Дашевский\\Desktop\\Помойка\\Examen\\Examen\\wwwroot\\img\\Page3.webp",
+      "PackagePath": "staticwebassets\\img\\Page3.webp"
+    },
+    {
+      "Id": "C:\\Users\\Данила Дашевский\\Desktop\\Помойка\\Examen\\Examen\\wwwroot\\img\\StateOstroVa.JPG",
+      "PackagePath": "staticwebassets\\img\\StateOstroVa.JPG"
+    },
+    {
+      "Id": "C:\\Users\\Данила Дашевский\\Desktop\\Помойка\\Examen\\Examen\\wwwroot\\img\\StateOstroVa.webp",
+      "PackagePath": "staticwebassets\\img\\StateOstroVa.webp"
+    },
+    {
+      "Id": "C:\\Users\\Данила Дашевский\\Desktop\\Помойка\\Examen\\Examen\\wwwroot\\img\\Subslide1.png",
+      "PackagePath": "staticwebassets\\img\\Subslide1.png"
+    },
+    {
+      "Id": "C:\\Users\\Данила Дашевский\\Desktop\\Помойка\\Examen\\Examen\\wwwroot\\img\\Subslide1.webp",
+      "PackagePath": "staticwebassets\\img\\Subslide1.webp"
+    },
+    {
+      "Id": "C:\\Users\\Данила Дашевский\\Desktop\\Помойка\\Examen\\Examen\\wwwroot\\img\\Subslide2.png",
+      "PackagePath": "staticwebassets\\img\\Subslide2.png"
+    },
+    {
+      "Id": "C:\\Users\\Данила Дашевский\\Desktop\\Помойка\\Examen\\Examen\\wwwroot\\img\\Subslide2.webp",
+      "PackagePath": "staticwebassets\\img\\Subslide2.webp"
+    },
+    {
+      "Id": "C:\\Users\\Данила Дашевский\\Desktop\\Помойка\\Examen\\Examen\\wwwroot\\img\\Subslide21.png",
+      "PackagePath": "staticwebassets\\img\\Subslide21.png"
+    },
+    {
+      "Id": "C:\\Users\\Данила Дашевский\\Desktop\\Помойка\\Examen\\Examen\\wwwroot\\img\\Subslide21.webp",
+      "PackagePath": "staticwebassets\\img\\Subslide21.webp"
+    },
+    {
+      "Id": "C:\\Users\\Данила Дашевский\\Desktop\\Помойка\\Examen\\Examen\\wwwroot\\img\\Subslide3.png",
+      "PackagePath": "staticwebassets\\img\\Subslide3.png"
+    },
+    {
+      "Id": "C:\\Users\\Данила Дашевский\\Desktop\\Помойка\\Examen\\Examen\\wwwroot\\img\\SubslidePossible.webp",
+      "PackagePath": "staticwebassets\\img\\SubslidePossible.webp"
+    },
+    {
+      "Id": "C:\\Users\\Данила Дашевский\\Desktop\\Помойка\\Examen\\Examen\\wwwroot\\img\\SubslideReal3.webp",
+      "PackagePath": "staticwebassets\\img\\SubslideReal3.webp"
+    },
+    {
+      "Id": "C:\\Users\\Данила Дашевский\\Desktop\\Помойка\\Examen\\Examen\\wwwroot\\img\\Telegram.png",
+      "PackagePath": "staticwebassets\\img\\Telegram.png"
+    },
+    {
+      "Id": "C:\\Users\\Данила Дашевский\\Desktop\\Помойка\\Examen\\Examen\\wwwroot\\img\\VKontacte.png",
+      "PackagePath": "staticwebassets\\img\\VKontacte.png"
+    },
+    {
+      "Id": "C:\\Users\\Данила Дашевский\\Desktop\\Помойка\\Examen\\Examen\\wwwroot\\img\\Va_148.JPG",
+      "PackagePath": "staticwebassets\\img\\Va_148.JPG"
+    },
+    {
+      "Id": "C:\\Users\\Данила Дашевский\\Desktop\\Помойка\\Examen\\Examen\\wwwroot\\img\\Va_148.webp",
+      "PackagePath": "staticwebassets\\img\\Va_148.webp"
+    },
+    {
+      "Id": "C:\\Users\\Данила Дашевский\\Desktop\\Помойка\\Examen\\Examen\\wwwroot\\img\\YourFuture.png",
+      "PackagePath": "staticwebassets\\img\\YourFuture.png"
+    },
+    {
+      "Id": "C:\\Users\\Данила Дашевский\\Desktop\\Помойка\\Examen\\Examen\\wwwroot\\img\\page1.webp",
+      "PackagePath": "staticwebassets\\img\\page1.webp"
+    },
+    {
+      "Id": "C:\\Users\\Данила Дашевский\\Desktop\\Помойка\\Examen\\Examen\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\Данила Дашевский\\Desktop\\Помойка\\Examen\\Examen\\wwwroot\\manifest.webmanifest",
+      "PackagePath": "staticwebassets\\manifest.webmanifest"
+    },
+    {
+      "Id": "C:\\Users\\Данила Дашевский\\Desktop\\Помойка\\Examen\\Examen\\wwwroot\\sample-data\\weather.json",
+      "PackagePath": "staticwebassets\\sample-data\\weather.json"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.Examen.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.Examen.props",
+      "PackagePath": "build\\Examen.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.Examen.props",
+      "PackagePath": "buildMultiTargeting\\Examen.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.Examen.props",
+      "PackagePath": "buildTransitive\\Examen.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

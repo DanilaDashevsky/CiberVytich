@@ -1,0 +1,435 @@
+﻿@page "/"
+@using System.ComponentModel.DataAnnotations;
+@using System.Text.RegularExpressions;
+@implements IBrowserViewportObserver
+@implements IAsyncDisposable
+
+
+
+
+
+<div class="carousel">
+    <MudCarousel Class="mud-width-full" Style=" min-height:700px; max-width:100%" ShowArrows="@arrows" AutoCycleTime="TimeSpan.FromSeconds(10)" ShowBullets="@bullets" EnableSwipeGesture="@enableSwipeGesture" AutoCycle="@autocycle" TData="object">
+        <MudCarouselItem Transition="transition" Class="Test" >
+            <div class="">
+                <div class="text">
+                    <div class="header1">Создадим красивый</div>
+                    @if (_width <500)
+                    {
+                        <div class="header2" >ДИЗАЙН</div>
+                    }else{
+                    <div class="header2">ДИЗАЙН</div>
+                    }
+                    <div class="header3">Сделаем красивый и удобный интерфейс, в котором пользователь сможет быстро разобраться и легко сделать заказ. </div>
+                    <ul>
+                        <li><a href="#" class="header4">Узнать больше</a></li>
+                    </ul>
+                </div>
+               
+                
+        </div>
+    </MudCarouselItem>
+        <MudCarouselItem Transition="transition" Class="Test1">
+            <div class="">
+                <div class="text">
+                    <div class="header1">У клиента появится</div>
+                    <div class="header2">МОТИВАЦИЯ</div>
+                    <div class="header3">Ваш сайт будет SEO-опитимизированным - это означает, что его рейтинг в поисковых запросах будет  выше, что повышает вероятность пользователя на посещение и заказа вашего продукта </div>
+                    <ul>
+                        <li><a href="#" class="header4">Узнать больше</a></li>
+                    </ul>
+                </div>
+              
+            </div>
+        </MudCarouselItem>
+        <MudCarouselItem Transition="transition" Class="Test2">
+            <div class="">
+                <div class="text">
+                    <div class="header1">Современная программная</div>
+                    <div class="header2">ИНЖЕНЕРИЯ</div>
+                    <div class="header3">Мы используем современные стандарты и инструменты разработки. Мы заботимся о том, чтобы ваш сайт был устойчив к нагрузке и атакам со стороны злоумышленников <br /></div>
+                    <ul>
+                        <li><a href="#" class="header4">Узнать больше</a></li>
+                    </ul>
+                </div>
+               
+            </div>
+        </MudCarouselItem>
+</MudCarousel>
+
+</div>
+
+@* Тут вторая часть *@
+
+
+<div class="Part2">
+
+    <div class="Achievements">
+        Интересные события и работы
+    </div>
+
+    <br>
+    <br>
+       
+        @if (_width > 650)
+        {
+        <div class="CaruselFromPart2">
+            <MudCarousel   Style="min-height:500px; width:600px" ShowArrows="@arrows1" ShowBullets="@bullets1" EnableSwipeGesture="@enableSwipeGesture" AutoCycle="@autocycle" TData="object">
+                <ChildContent>
+                    <MudCarouselItem Transition="transition">
+
+                        <MudCard>
+                            <MudCardMedia Image="img/OstroVaTitle.webp" />
+                            <MudCardContent>
+                                <MudText Typo="Typo.subtitle1">Повышаем свои профессиональные компетенции на всероссийском форуме ОстроVa</MudText>
+                            </MudCardContent>
+                            <MudCardActions>
+                                <MudButton Variant="Variant.Text" Color="Color.Primary">Узнать больше</MudButton>
+                            </MudCardActions>
+                        </MudCard>
+
+                    </MudCarouselItem>
+                    <MudCarouselItem Transition="transition" >
+
+                        <MudCard>
+                            <MudCardMedia Image="img/ChatBotTitle.webp" />
+                            <MudCardContent>
+                                <MudText Typo="Typo.subtitle1">Мы стали победителями в областном хакатоне по разработке чат-ботов для бизнеса</MudText>
+                            </MudCardContent>
+                            <MudCardActions>
+                                <MudButton Variant="Variant.Text" Color="Color.Primary">Узнать больше</MudButton>
+                            </MudCardActions>
+                        </MudCard>
+
+                    </MudCarouselItem>
+                    <MudCarouselItem Transition="transition">
+
+                        <MudCard>
+                            <MudCardMedia Image="img/GrateFullIK6.webp" />
+                            <MudCardContent>
+                                <MudText Typo="Typo.subtitle1">Нашими силами был разработан оффлайн сайт исправительной колонии №6 пгт.Восточный</MudText>
+                            </MudCardContent>
+                            <MudCardActions>
+                                <MudButton Variant="Variant.Text" Color="Color.Primary">Узнать больше</MudButton>
+                            </MudCardActions>
+                        </MudCard>
+
+                    </MudCarouselItem>
+                    <MudCarouselItem Transition="transition">
+
+                        <MudCard>
+                            <MudCardMedia Image="img/MacrosTitle.webp" />
+                            <MudCardContent>
+                                <MudText Typo="Typo.subtitle1">Макрос в Excel для компании ТрэйдСервис</MudText>
+                                <MudText Typo="Typo.body2">Ребятам понадобился макрос, разделяющий доступ к таблицам...</MudText>
+                            </MudCardContent>
+                            <MudCardActions>
+                                <MudButton Variant="Variant.Text" Color="Color.Primary">Узнать больше</MudButton>
+                            </MudCardActions>
+                        </MudCard>
+                    </MudCarouselItem>
+
+                </ChildContent>
+                <BulletTemplate Context="selected">
+                    <div Class="mud-button-root mud-icon-button mud-icon-button-color-inherit mud-ripple mud-ripple-icon">
+                        <span class="mud-icon-button-label">
+                            <MudIcon Icon="@(selected ? Icons.Material.Filled.CheckCircle : Icons.Material.Filled.Circle)" Color="@Color.Primary" />
+                        </span>
+                    </div>
+                </BulletTemplate>
+                <PreviousButtonTemplate>
+                    <div Class="mud-button-root mud-icon-button mud-icon-button-color-inherit mud-ripple mud-ripple-icon" style="margin-bottom:200px;">
+                        <span class="mud-icon-button-label ">
+                            <MudIcon Class="mud-ripple mud-ripple-icon mud-icon-button-size-medium " Icon="@Icons.Material.Filled.ArrowBackIos" Size=Size.Large Color="@Color.Secondary" />
+                        </span>
+                    </div>
+                </PreviousButtonTemplate>
+                <NextButtonTemplate >
+                    <div Class="mud-button-root mud-icon-button mud-icon-button-color-inherit mud-ripple mud-ripple-icon" style="margin-bottom:200px;">
+                        <span class="mud-icon-button-label ">
+                            <MudIcon Class="mud-ripple mud-ripple-icon mud-icon-button-size-medium " Icon="@Icons.Material.Filled.ArrowForwardIos" Size=Size.Large Color="@Color.Secondary" />
+                        </span>
+                    </div>
+                </NextButtonTemplate>
+            </MudCarousel>
+            </div>
+        }
+        else
+        {
+        <div class="CaruselFromPart2Mini">
+            <MudCard>
+                <MudCardMedia Image="img/OstroVaTitle.webp" />
+                <MudCardContent>
+                    <MudText Typo="Typo.subtitle1">Повышаем свои профессиональные компетенции на всероссийском форуме ОстроVa</MudText>
+                </MudCardContent>
+                <MudCardActions>
+                    <MudButton Variant="Variant.Text" Color="Color.Primary">Узнать больше</MudButton>
+                </MudCardActions>
+            </MudCard>
+            <br>
+            <MudCard>
+                <MudCardMedia Image="img/ChatBotTitle.webp" />
+                <MudCardContent>
+                    <MudText Typo="Typo.subtitle1">Мы стали победителями в областном хакатоне по разработке чат-ботов для бизнеса</MudText>
+                </MudCardContent>
+                <MudCardActions>
+                    <MudButton Variant="Variant.Text" Color="Color.Primary">Узнать больше</MudButton>
+                </MudCardActions>
+            </MudCard>
+                <br>
+
+        </div>
+        }
+        
+        
+        </div>
+    
+
+@* Тут третья часть *@
+
+
+
+<div class="Part3">
+
+<div class="contact">
+        <div style="height:35%; width:40px;"></div>
+        <MudImage title="Если вы программист, то вы можете посмотреть код наших работ" Src="img/GitHub.png" Alt="GitHub" Elevation="0" Class="" />
+        <MudImage title="Вы можете связаться с нами в ВКонтакте" Src="img/VKontacte.png" Alt="VKontacte" Elevation="0" Class="" />
+        <MudImage title="Вы можете связаться с нами в Телеграм" Src="img/Telegram.png" Alt="Telegram" Elevation="0" Class="" />
+        <MudImage title="Вы можете оставить свою заявку" Src="img/Feedback.png" Alt="Feedback" Elevation="0" Class="" />
+        <div style="height:35%; width:40px;"></div>
+</div>
+
+<div class="column">
+    <div class="hello">
+            @if (_width > 1445)
+            {
+                <MudImage Src="img/YourFuture.png" Alt="Feedback" Elevation="0" Class="" />
+            }
+            
+        <span>ПРИВЕТСТВУЕМ ВАС НА СВОЕЙ ПЛАНЕТЕ</span>
+            @if (_width > 1445)
+            {
+        <MudImage Src="img/CiberVitych.png" Alt="Feedback" Elevation="0" Class="" />
+            }
+    </div>
+        <div class="MyPlanet">
+            <MudImage Src="img/MyPlanet.svg" Alt="Feedback" Elevation="0" Height="200" Class="" />
+        </div>
+        <div class="hello hello1"> МЕНЯ ЗОВУТ ДАНИЛА</div> <br>
+        <div class="GetInfo">
+            <span>Я стану вашим проводником в мире исcкуства.</span>
+            <br>
+            <br>
+            <div style="text-align:justify; padding:10px;">
+                Я основатель команды Кибер Вятич, которая специализируется на создании чат-ботов, Web-сайтов, макросах и прочих программных продуктах.
+                <br>
+                <div style="display:flex;justify-content:center; max-width:100%;">
+                <span style="margin-top:10px; margin-bottom:10px;">Пара фактов о нас:</span>
+                </div>
+                <div class="facts">
+             
+
+                    <div>
+                        <MudCard Style="height:100%;">
+                                <MudCardMedia Image="img/Subslide1.webp"  />
+                                <MudCardContent>
+                            <MudText Typo="Typo.h5">
+                                    Мы используем современные стандарты разработки, всегда заботимся о наших клиентах и с радостью идём на контакт.<pre> &nbsp &nbsp </pre>
+                                    </MudText>
+                                </MudCardContent>
+                           
+                            <MudCardActions >
+                                <MudButton Variant="Variant.Text" Color="Color.Primary">Узнать больше</MudButton>
+                                </MudCardActions>
+                            </MudCard>
+                        </div>
+                            <div>
+                        <MudCard Style="height:100%;">
+                            <MudCardMedia Image="img/Subslide21.webp" />
+                                <MudCardContent>
+                                    <MudText Typo="Typo.h5">
+                                        Мы молодая команда, в силу этого нашим первым клиентам мы дарим скидку в 40% от реальной стоимости разработки вашего продукта.
+                                    </MudText>
+                                </MudCardContent>
+                            <MudCardActions >
+                                <NavLink class="nav-link" href="#" Match="NavLinkMatch.All">
+                                    <span class="" aria-hidden="true">УЗНАТЬ БОЛЬШЕ</span>
+                                </NavLink>
+                                </MudCardActions>
+                            </MudCard>
+                    </div>
+                    <div>
+                        <MudCard Style="height:100%;">
+                            <MudCardMedia Image="img/SubslideReal3.webp" />
+                                <MudCardContent>
+
+                            <MudText Typo="Typo.h5">Мы не делаем шаблонных решений, каждый наш продукт является уникальным. Мы учтём все ваши пожелания и предпочтения.</MudText>
+                                </MudCardContent>
+
+                                <MudCardActions >
+                                <NavLink class="nav-link" href="#" Match="NavLinkMatch.All">
+                                    <span class="" aria-hidden="true">УЗНАТЬ БОЛЬШЕ</span>
+                                </NavLink>
+                                </MudCardActions>
+                            </MudCard>
+                        </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+   
+</div>
+
+
+<div class="Between"></div>
+
+<div class="Part4">
+    <div class="LogoPart4">
+        <MudImage Style="margin-left:50%; transform:translateX(-50%);" Src="img/BigLogo.svg" Alt="Logo" Elevation="0" Height="250" />
+        <div class="Slogan1">
+            Web-студия «Твоё будущее»
+        </div>
+        <div >
+           Твой путь. Твоё будущее.
+        </div>
+    </div>
+    <MudPaper Class="Form">
+
+
+        <MudForm Style="height:100%; width:auto;" @ref="form" @bind-IsValid="@success" @bind-Errors="@errors">
+                        <MudSelect T="string" Label="Выберите тип работы"  AnchorOrigin="Origin.BottomCenter">
+                            <MudSelectItem T="string" Value="@("Чат-бот")" />
+                            <MudSelectItem T="string" Value="@("Макрос")" />
+                            <MudSelectItem T="string" Value="@("Web-сайт")" />
+                            <MudSelectItem T="string" Value="@("Доработка")" />
+                            <MudSelectItem T="string" Value="@("Поддержка")" />
+                            <MudSelectItem T="string" Value="@("Другое")" />
+                        </MudSelect>
+                        <MudTextField  T="string" Variant="Variant.Text" Lines="2" Label="Что требуется сделать, опишите задачу" Required="true" />
+                        <br>
+                        <MudText  Typo="Typo.subtitle1" Align="Align.Center">Загрузите техническое задание, если есть</MudText>
+  
+                        <MudFileUpload Style="margin-left:50%; transform:translateX(-30%);" T="IBrowserFile" FilesChanged="UploadFiles">
+                            <ButtonTemplate>
+                                <MudButton HtmlTag="label"
+                                           Variant="Variant.Filled"
+                                           Color="Color.Primary"
+                                           StartIcon="@Icons.Material.Filled.CloudUpload"
+                                           for="@context.Id">
+                                  Загрузите файл
+                                </MudButton>
+                            </ButtonTemplate>
+                        </MudFileUpload>
+                        <br>
+                        <div class="textForm">
+                            <span class="span1">Ваши контакты</span> <br>
+                            <span class="span1 span2">
+                                Свяжемся с вами, когда подготовим
+                                предложение, расчитаем стоимость и сроки
+                            </span>
+                        </div>
+ <br>
+            <MudTextField T="string" Variant="Variant.Text" Lines="1" Label="Напишите ваше имя и фамилию" Required="true" ErrorText="Обязательно для заполнения" RequiredError="Поле обязательно для заполнения" />
+            <MudTextField T="string" Variant="Variant.Text" Lines="1" Label="Укажите почту" Required="true" ErrorText="Обязательно для заполнения" RequiredError="Поле обязательно для заполнения" />
+            <MudTextField T="string" Variant="Variant.Text" Lines="1" Label="Укажите телефон на случай важных переговоров(необязательно)" />
+            <MudTextField T="string" Variant="Variant.Text" Lines="1" Label="Ссылка на вашу социальную сеть(необязательно)"  />
+            <MudTextField T="string" Variant="Variant.Text" Lines="1" Label="Название компании(необязательно)" />
+            <br>
+                        <div  class="d-flex align-center justify-space-between">
+                <MudButton Variant="Variant.Filled" Color="Color.Primary"  EndIcon="@Icons.Material.Filled.Send">Отправить на оценку</MudButton>
+                <div class="Politic">
+                    Нажимая на кнопку вы соглашаетесь с политикой обработки <a href="#8"> персональных данных</a>
+                </div>
+                        </div>
+                    </MudForm>
+     
+    </MudPaper>
+</div>
+
+
+
+@code {
+
+    //TimeSpan.FromSeconds(10) указываем в секундах, сколько будет задержка перехода между слайдами
+    private bool arrows = false;
+    private bool bullets = false;
+    private bool enableSwipeGesture = true;
+    private bool autocycle = true;
+    private Transition transition = Transition.Slide;
+    private bool arrows1 = true;
+    private bool bullets1 = true;
+
+    IList<IBrowserFile> files = new List<IBrowserFile>();
+    private void UploadFiles(IBrowserFile file)
+    {
+        files.Add(file);
+        //TODO upload the files to the server
+    }
+
+    [Inject]
+    private IBrowserViewportService BrowserViewportService { get; set; }
+
+    private int _width = 0;
+    private int _height = 0;
+    private bool _VidibleElement = false;
+
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        
+        if (firstRender)
+        {
+            await BrowserViewportService.SubscribeAsync(this, fireImmediately: true);
+        }
+
+        await base.OnAfterRenderAsync(firstRender);
+    }
+
+    public async ValueTask DisposeAsync() => await BrowserViewportService.UnsubscribeAsync(this);
+
+    Guid IBrowserViewportObserver.Id { get; } = Guid.NewGuid();
+
+    ResizeOptions IBrowserViewportObserver.ResizeOptions { get; } = new()
+        {
+            ReportRate = 50,
+            NotifyOnBreakpointOnly = false
+        };
+
+    Task IBrowserViewportObserver.NotifyBrowserViewportChangeAsync(BrowserViewportEventArgs browserViewportEventArgs)
+    {
+        _width = browserViewportEventArgs.BrowserWindowSize.Width;
+        _height = browserViewportEventArgs.BrowserWindowSize.Height;
+        if (_width <= 750)
+        { _VidibleElement = true; } //вот тут за сайты
+        else
+        {
+            _VidibleElement = false;
+        }
+
+        return InvokeAsync(StateHasChanged);
+    }
+
+    bool open = false;
+    Anchor anchor;
+
+    bool success;
+    string[] errors = { };
+    MudTextField<string> pwField1;
+    MudForm form;
+
+   
+
+    private string PasswordMatch(string arg)
+    {
+        if (pwField1.Value != arg)
+            return "Passwords don't match";
+        return null;
+    }
+}
+
+
+
+
+
+

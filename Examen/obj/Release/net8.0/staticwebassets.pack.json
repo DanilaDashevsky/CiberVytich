@@ -1,0 +1,425 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\hanaz\\OneDrive\\Рабочий стол\\Examen\\Examen\\bin\\Release\\net8.0\\wwwroot\\_framework\\blazor.webassembly.js",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js"
+    },
+    {
+      "Id": "C:\\Users\\hanaz\\OneDrive\\Рабочий стол\\Examen\\Examen\\obj\\Release\\net8.0\\compressed\\c6b7x2dkvq.gz",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js.gz"
+    },
+    {
+      "Id": "C:\\Users\\hanaz\\OneDrive\\Рабочий стол\\Examen\\Examen\\obj\\Release\\net8.0\\scopedcss\\bundle\\Examen.styles.css",
+      "PackagePath": "staticwebassets\\Examen.styles.css"
+    },
+    {
+      "Id": "C:\\Users\\hanaz\\OneDrive\\Рабочий стол\\Examen\\Examen\\obj\\Release\\net8.0\\service-worker-assets.js",
+      "PackagePath": "staticwebassets\\service-worker-assets.js"
+    },
+    {
+      "Id": "C:\\Users\\hanaz\\OneDrive\\Рабочий стол\\Examen\\Examen\\obj\\Release\\net8.0\\service-worker\\service-worker.published.js",
+      "PackagePath": "staticwebassets\\service-worker.js"
+    },
+    {
+      "Id": "C:\\Users\\hanaz\\OneDrive\\Рабочий стол\\Examen\\Examen\\wwwroot\\css\\app.css",
+      "PackagePath": "staticwebassets\\css\\app.css"
+    },
+    {
+      "Id": "C:\\Users\\hanaz\\OneDrive\\Рабочий стол\\Examen\\Examen\\wwwroot\\css\\bootstrap-icons\\bootstrap-icons.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-icons\\bootstrap-icons.css"
+    },
+    {
+      "Id": "C:\\Users\\hanaz\\OneDrive\\Рабочий стол\\Examen\\Examen\\wwwroot\\css\\bootstrap-icons\\bootstrap-icons.json",
+      "PackagePath": "staticwebassets\\css\\bootstrap-icons\\bootstrap-icons.json"
+    },
+    {
+      "Id": "C:\\Users\\hanaz\\OneDrive\\Рабочий стол\\Examen\\Examen\\wwwroot\\css\\bootstrap-icons\\bootstrap-icons.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-icons\\bootstrap-icons.min.css"
+    },
+    {
+      "Id": "C:\\Users\\hanaz\\OneDrive\\Рабочий стол\\Examen\\Examen\\wwwroot\\css\\bootstrap-icons\\bootstrap-icons.scss",
+      "PackagePath": "staticwebassets\\css\\bootstrap-icons\\bootstrap-icons.scss"
+    },
+    {
+      "Id": "C:\\Users\\hanaz\\OneDrive\\Рабочий стол\\Examen\\Examen\\wwwroot\\css\\bootstrap-icons\\fonts\\bootstrap-icons.woff",
+      "PackagePath": "staticwebassets\\css\\bootstrap-icons\\fonts\\bootstrap-icons.woff"
+    },
+    {
+      "Id": "C:\\Users\\hanaz\\OneDrive\\Рабочий стол\\Examen\\Examen\\wwwroot\\css\\bootstrap-icons\\fonts\\bootstrap-icons.woff2",
+      "PackagePath": "staticwebassets\\css\\bootstrap-icons\\fonts\\bootstrap-icons.woff2"
+    },
+    {
+      "Id": "C:\\Users\\hanaz\\OneDrive\\Рабочий стол\\Examen\\Examen\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\hanaz\\OneDrive\\Рабочий стол\\Examen\\Examen\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\hanaz\\OneDrive\\Рабочий стол\\Examen\\Examen\\wwwroot\\css\\mycss.css",
+      "PackagePath": "staticwebassets\\css\\mycss.css"
+    },
+    {
+      "Id": "C:\\Users\\hanaz\\OneDrive\\Рабочий стол\\Examen\\Examen\\wwwroot\\css\\mystyle.css",
+      "PackagePath": "staticwebassets\\css\\mystyle.css"
+    },
+    {
+      "Id": "C:\\Users\\hanaz\\OneDrive\\Рабочий стол\\Examen\\Examen\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "C:\\Users\\hanaz\\OneDrive\\Рабочий стол\\Examen\\Examen\\wwwroot\\icon-192.png",
+      "PackagePath": "staticwebassets\\icon-192.png"
+    },
+    {
+      "Id": "C:\\Users\\hanaz\\OneDrive\\Рабочий стол\\Examen\\Examen\\wwwroot\\icon-512.png",
+      "PackagePath": "staticwebassets\\icon-512.png"
+    },
+    {
+      "Id": "C:\\Users\\hanaz\\OneDrive\\Рабочий стол\\Examen\\Examen\\wwwroot\\img — копия — копия\\AboutMe.png",
+      "PackagePath": "staticwebassets\\img — копия — копия\\AboutMe.png"
+    },
+    {
+      "Id": "C:\\Users\\hanaz\\OneDrive\\Рабочий стол\\Examen\\Examen\\wwwroot\\img — копия — копия\\Between.png",
+      "PackagePath": "staticwebassets\\img — копия — копия\\Between.png"
+    },
+    {
+      "Id": "C:\\Users\\hanaz\\OneDrive\\Рабочий стол\\Examen\\Examen\\wwwroot\\img — копия — копия\\BigLogo.png",
+      "PackagePath": "staticwebassets\\img — копия — копия\\BigLogo.png"
+    },
+    {
+      "Id": "C:\\Users\\hanaz\\OneDrive\\Рабочий стол\\Examen\\Examen\\wwwroot\\img — копия — копия\\ChatBotTitle.jpg",
+      "PackagePath": "staticwebassets\\img — копия — копия\\ChatBotTitle.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hanaz\\OneDrive\\Рабочий стол\\Examen\\Examen\\wwwroot\\img — копия — копия\\CiberVitych.png",
+      "PackagePath": "staticwebassets\\img — копия — копия\\CiberVitych.png"
+    },
+    {
+      "Id": "C:\\Users\\hanaz\\OneDrive\\Рабочий стол\\Examen\\Examen\\wwwroot\\img — копия — копия\\CiberVytich.png",
+      "PackagePath": "staticwebassets\\img — копия — копия\\CiberVytich.png"
+    },
+    {
+      "Id": "C:\\Users\\hanaz\\OneDrive\\Рабочий стол\\Examen\\Examen\\wwwroot\\img — копия — копия\\Corner.png",
+      "PackagePath": "staticwebassets\\img — копия — копия\\Corner.png"
+    },
+    {
+      "Id": "C:\\Users\\hanaz\\OneDrive\\Рабочий стол\\Examen\\Examen\\wwwroot\\img — копия — копия\\Feedback.png",
+      "PackagePath": "staticwebassets\\img — копия — копия\\Feedback.png"
+    },
+    {
+      "Id": "C:\\Users\\hanaz\\OneDrive\\Рабочий стол\\Examen\\Examen\\wwwroot\\img — копия — копия\\First.jpg",
+      "PackagePath": "staticwebassets\\img — копия — копия\\First.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hanaz\\OneDrive\\Рабочий стол\\Examen\\Examen\\wwwroot\\img — копия — копия\\GitHub.png",
+      "PackagePath": "staticwebassets\\img — копия — копия\\GitHub.png"
+    },
+    {
+      "Id": "C:\\Users\\hanaz\\OneDrive\\Рабочий стол\\Examen\\Examen\\wwwroot\\img — копия — копия\\GrateFullIK6.png",
+      "PackagePath": "staticwebassets\\img — копия — копия\\GrateFullIK6.png"
+    },
+    {
+      "Id": "C:\\Users\\hanaz\\OneDrive\\Рабочий стол\\Examen\\Examen\\wwwroot\\img — копия — копия\\LogoFake.png",
+      "PackagePath": "staticwebassets\\img — копия — копия\\LogoFake.png"
+    },
+    {
+      "Id": "C:\\Users\\hanaz\\OneDrive\\Рабочий стол\\Examen\\Examen\\wwwroot\\img — копия — копия\\LogoReal.png",
+      "PackagePath": "staticwebassets\\img — копия — копия\\LogoReal.png"
+    },
+    {
+      "Id": "C:\\Users\\hanaz\\OneDrive\\Рабочий стол\\Examen\\Examen\\wwwroot\\img — копия — копия\\MacrosTitle.png",
+      "PackagePath": "staticwebassets\\img — копия — копия\\MacrosTitle.png"
+    },
+    {
+      "Id": "C:\\Users\\hanaz\\OneDrive\\Рабочий стол\\Examen\\Examen\\wwwroot\\img — копия — копия\\MicroLogo.png",
+      "PackagePath": "staticwebassets\\img — копия — копия\\MicroLogo.png"
+    },
+    {
+      "Id": "C:\\Users\\hanaz\\OneDrive\\Рабочий стол\\Examen\\Examen\\wwwroot\\img — копия — копия\\MyPlanet.png",
+      "PackagePath": "staticwebassets\\img — копия — копия\\MyPlanet.png"
+    },
+    {
+      "Id": "C:\\Users\\hanaz\\OneDrive\\Рабочий стол\\Examen\\Examen\\wwwroot\\img — копия — копия\\OstroVaTitle.png",
+      "PackagePath": "staticwebassets\\img — копия — копия\\OstroVaTitle.png"
+    },
+    {
+      "Id": "C:\\Users\\hanaz\\OneDrive\\Рабочий стол\\Examen\\Examen\\wwwroot\\img — копия — копия\\Page2.png",
+      "PackagePath": "staticwebassets\\img — копия — копия\\Page2.png"
+    },
+    {
+      "Id": "C:\\Users\\hanaz\\OneDrive\\Рабочий стол\\Examen\\Examen\\wwwroot\\img — копия — копия\\Page3.png",
+      "PackagePath": "staticwebassets\\img — копия — копия\\Page3.png"
+    },
+    {
+      "Id": "C:\\Users\\hanaz\\OneDrive\\Рабочий стол\\Examen\\Examen\\wwwroot\\img — копия — копия\\StateOstroVa.JPG",
+      "PackagePath": "staticwebassets\\img — копия — копия\\StateOstroVa.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hanaz\\OneDrive\\Рабочий стол\\Examen\\Examen\\wwwroot\\img — копия — копия\\Subslide1.png",
+      "PackagePath": "staticwebassets\\img — копия — копия\\Subslide1.png"
+    },
+    {
+      "Id": "C:\\Users\\hanaz\\OneDrive\\Рабочий стол\\Examen\\Examen\\wwwroot\\img — копия — копия\\Subslide2.png",
+      "PackagePath": "staticwebassets\\img — копия — копия\\Subslide2.png"
+    },
+    {
+      "Id": "C:\\Users\\hanaz\\OneDrive\\Рабочий стол\\Examen\\Examen\\wwwroot\\img — копия — копия\\Subslide21.png",
+      "PackagePath": "staticwebassets\\img — копия — копия\\Subslide21.png"
+    },
+    {
+      "Id": "C:\\Users\\hanaz\\OneDrive\\Рабочий стол\\Examen\\Examen\\wwwroot\\img — копия — копия\\SubslidePossible.png",
+      "PackagePath": "staticwebassets\\img — копия — копия\\SubslidePossible.png"
+    },
+    {
+      "Id": "C:\\Users\\hanaz\\OneDrive\\Рабочий стол\\Examen\\Examen\\wwwroot\\img — копия — копия\\SubslideReal3.png",
+      "PackagePath": "staticwebassets\\img — копия — копия\\SubslideReal3.png"
+    },
+    {
+      "Id": "C:\\Users\\hanaz\\OneDrive\\Рабочий стол\\Examen\\Examen\\wwwroot\\img — копия — копия\\Telegram.png",
+      "PackagePath": "staticwebassets\\img — копия — копия\\Telegram.png"
+    },
+    {
+      "Id": "C:\\Users\\hanaz\\OneDrive\\Рабочий стол\\Examen\\Examen\\wwwroot\\img — копия — копия\\VKontacte.png",
+      "PackagePath": "staticwebassets\\img — копия — копия\\VKontacte.png"
+    },
+    {
+      "Id": "C:\\Users\\hanaz\\OneDrive\\Рабочий стол\\Examen\\Examen\\wwwroot\\img — копия — копия\\Va_148.JPG",
+      "PackagePath": "staticwebassets\\img — копия — копия\\Va_148.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hanaz\\OneDrive\\Рабочий стол\\Examen\\Examen\\wwwroot\\img — копия — копия\\YourFuture.png",
+      "PackagePath": "staticwebassets\\img — копия — копия\\YourFuture.png"
+    },
+    {
+      "Id": "C:\\Users\\hanaz\\OneDrive\\Рабочий стол\\Examen\\Examen\\wwwroot\\img — копия — копия\\page1.png",
+      "PackagePath": "staticwebassets\\img — копия — копия\\page1.png"
+    },
+    {
+      "Id": "C:\\Users\\hanaz\\OneDrive\\Рабочий стол\\Examen\\Examen\\wwwroot\\img — копия\\AboutMe.png",
+      "PackagePath": "staticwebassets\\img — копия\\AboutMe.png"
+    },
+    {
+      "Id": "C:\\Users\\hanaz\\OneDrive\\Рабочий стол\\Examen\\Examen\\wwwroot\\img — копия\\Between.png",
+      "PackagePath": "staticwebassets\\img — копия\\Between.png"
+    },
+    {
+      "Id": "C:\\Users\\hanaz\\OneDrive\\Рабочий стол\\Examen\\Examen\\wwwroot\\img — копия\\BigLogo.png",
+      "PackagePath": "staticwebassets\\img — копия\\BigLogo.png"
+    },
+    {
+      "Id": "C:\\Users\\hanaz\\OneDrive\\Рабочий стол\\Examen\\Examen\\wwwroot\\img — копия\\ChatBotTitle.jpg",
+      "PackagePath": "staticwebassets\\img — копия\\ChatBotTitle.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hanaz\\OneDrive\\Рабочий стол\\Examen\\Examen\\wwwroot\\img — копия\\CiberVytich.png",
+      "PackagePath": "staticwebassets\\img — копия\\CiberVytich.png"
+    },
+    {
+      "Id": "C:\\Users\\hanaz\\OneDrive\\Рабочий стол\\Examen\\Examen\\wwwroot\\img — копия\\First.jpg",
+      "PackagePath": "staticwebassets\\img — копия\\First.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hanaz\\OneDrive\\Рабочий стол\\Examen\\Examen\\wwwroot\\img — копия\\GrateFullIK6.png",
+      "PackagePath": "staticwebassets\\img — копия\\GrateFullIK6.png"
+    },
+    {
+      "Id": "C:\\Users\\hanaz\\OneDrive\\Рабочий стол\\Examen\\Examen\\wwwroot\\img — копия\\LogoFake.png",
+      "PackagePath": "staticwebassets\\img — копия\\LogoFake.png"
+    },
+    {
+      "Id": "C:\\Users\\hanaz\\OneDrive\\Рабочий стол\\Examen\\Examen\\wwwroot\\img — копия\\MacrosTitle.png",
+      "PackagePath": "staticwebassets\\img — копия\\MacrosTitle.png"
+    },
+    {
+      "Id": "C:\\Users\\hanaz\\OneDrive\\Рабочий стол\\Examen\\Examen\\wwwroot\\img — копия\\MyPlanet.png",
+      "PackagePath": "staticwebassets\\img — копия\\MyPlanet.png"
+    },
+    {
+      "Id": "C:\\Users\\hanaz\\OneDrive\\Рабочий стол\\Examen\\Examen\\wwwroot\\img — копия\\OstroVaTitle.png",
+      "PackagePath": "staticwebassets\\img — копия\\OstroVaTitle.png"
+    },
+    {
+      "Id": "C:\\Users\\hanaz\\OneDrive\\Рабочий стол\\Examen\\Examen\\wwwroot\\img — копия\\Page2.png",
+      "PackagePath": "staticwebassets\\img — копия\\Page2.png"
+    },
+    {
+      "Id": "C:\\Users\\hanaz\\OneDrive\\Рабочий стол\\Examen\\Examen\\wwwroot\\img — копия\\Page3.png",
+      "PackagePath": "staticwebassets\\img — копия\\Page3.png"
+    },
+    {
+      "Id": "C:\\Users\\hanaz\\OneDrive\\Рабочий стол\\Examen\\Examen\\wwwroot\\img — копия\\StateOstroVa.JPG",
+      "PackagePath": "staticwebassets\\img — копия\\StateOstroVa.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hanaz\\OneDrive\\Рабочий стол\\Examen\\Examen\\wwwroot\\img — копия\\Subslide1.png",
+      "PackagePath": "staticwebassets\\img — копия\\Subslide1.png"
+    },
+    {
+      "Id": "C:\\Users\\hanaz\\OneDrive\\Рабочий стол\\Examen\\Examen\\wwwroot\\img — копия\\Subslide2.png",
+      "PackagePath": "staticwebassets\\img — копия\\Subslide2.png"
+    },
+    {
+      "Id": "C:\\Users\\hanaz\\OneDrive\\Рабочий стол\\Examen\\Examen\\wwwroot\\img — копия\\Subslide21.png",
+      "PackagePath": "staticwebassets\\img — копия\\Subslide21.png"
+    },
+    {
+      "Id": "C:\\Users\\hanaz\\OneDrive\\Рабочий стол\\Examen\\Examen\\wwwroot\\img — копия\\SubslidePossible.png",
+      "PackagePath": "staticwebassets\\img — копия\\SubslidePossible.png"
+    },
+    {
+      "Id": "C:\\Users\\hanaz\\OneDrive\\Рабочий стол\\Examen\\Examen\\wwwroot\\img — копия\\SubslideReal3.png",
+      "PackagePath": "staticwebassets\\img — копия\\SubslideReal3.png"
+    },
+    {
+      "Id": "C:\\Users\\hanaz\\OneDrive\\Рабочий стол\\Examen\\Examen\\wwwroot\\img — копия\\Va_148.JPG",
+      "PackagePath": "staticwebassets\\img — копия\\Va_148.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hanaz\\OneDrive\\Рабочий стол\\Examen\\Examen\\wwwroot\\img — копия\\page1.png",
+      "PackagePath": "staticwebassets\\img — копия\\page1.png"
+    },
+    {
+      "Id": "C:\\Users\\hanaz\\OneDrive\\Рабочий стол\\Examen\\Examen\\wwwroot\\img\\AboutMe.webp",
+      "PackagePath": "staticwebassets\\img\\AboutMe.webp"
+    },
+    {
+      "Id": "C:\\Users\\hanaz\\OneDrive\\Рабочий стол\\Examen\\Examen\\wwwroot\\img\\Between.webp",
+      "PackagePath": "staticwebassets\\img\\Between.webp"
+    },
+    {
+      "Id": "C:\\Users\\hanaz\\OneDrive\\Рабочий стол\\Examen\\Examen\\wwwroot\\img\\BigLogo.svg",
+      "PackagePath": "staticwebassets\\img\\BigLogo.svg"
+    },
+    {
+      "Id": "C:\\Users\\hanaz\\OneDrive\\Рабочий стол\\Examen\\Examen\\wwwroot\\img\\ChatBotTitle.webp",
+      "PackagePath": "staticwebassets\\img\\ChatBotTitle.webp"
+    },
+    {
+      "Id": "C:\\Users\\hanaz\\OneDrive\\Рабочий стол\\Examen\\Examen\\wwwroot\\img\\CiberVitych.png",
+      "PackagePath": "staticwebassets\\img\\CiberVitych.png"
+    },
+    {
+      "Id": "C:\\Users\\hanaz\\OneDrive\\Рабочий стол\\Examen\\Examen\\wwwroot\\img\\Corner.png",
+      "PackagePath": "staticwebassets\\img\\Corner.png"
+    },
+    {
+      "Id": "C:\\Users\\hanaz\\OneDrive\\Рабочий стол\\Examen\\Examen\\wwwroot\\img\\Feedback.png",
+      "PackagePath": "staticwebassets\\img\\Feedback.png"
+    },
+    {
+      "Id": "C:\\Users\\hanaz\\OneDrive\\Рабочий стол\\Examen\\Examen\\wwwroot\\img\\First.webp",
+      "PackagePath": "staticwebassets\\img\\First.webp"
+    },
+    {
+      "Id": "C:\\Users\\hanaz\\OneDrive\\Рабочий стол\\Examen\\Examen\\wwwroot\\img\\GitHub.png",
+      "PackagePath": "staticwebassets\\img\\GitHub.png"
+    },
+    {
+      "Id": "C:\\Users\\hanaz\\OneDrive\\Рабочий стол\\Examen\\Examen\\wwwroot\\img\\GrateFullIK6.webp",
+      "PackagePath": "staticwebassets\\img\\GrateFullIK6.webp"
+    },
+    {
+      "Id": "C:\\Users\\hanaz\\OneDrive\\Рабочий стол\\Examen\\Examen\\wwwroot\\img\\LogoReal.png",
+      "PackagePath": "staticwebassets\\img\\LogoReal.png"
+    },
+    {
+      "Id": "C:\\Users\\hanaz\\OneDrive\\Рабочий стол\\Examen\\Examen\\wwwroot\\img\\MacrosTitle.webp",
+      "PackagePath": "staticwebassets\\img\\MacrosTitle.webp"
+    },
+    {
+      "Id": "C:\\Users\\hanaz\\OneDrive\\Рабочий стол\\Examen\\Examen\\wwwroot\\img\\MicroLogo.png",
+      "PackagePath": "staticwebassets\\img\\MicroLogo.png"
+    },
+    {
+      "Id": "C:\\Users\\hanaz\\OneDrive\\Рабочий стол\\Examen\\Examen\\wwwroot\\img\\MyPlanet.svg",
+      "PackagePath": "staticwebassets\\img\\MyPlanet.svg"
+    },
+    {
+      "Id": "C:\\Users\\hanaz\\OneDrive\\Рабочий стол\\Examen\\Examen\\wwwroot\\img\\OstroVaTitle.webp",
+      "PackagePath": "staticwebassets\\img\\OstroVaTitle.webp"
+    },
+    {
+      "Id": "C:\\Users\\hanaz\\OneDrive\\Рабочий стол\\Examen\\Examen\\wwwroot\\img\\Page2.webp",
+      "PackagePath": "staticwebassets\\img\\Page2.webp"
+    },
+    {
+      "Id": "C:\\Users\\hanaz\\OneDrive\\Рабочий стол\\Examen\\Examen\\wwwroot\\img\\Page3.webp",
+      "PackagePath": "staticwebassets\\img\\Page3.webp"
+    },
+    {
+      "Id": "C:\\Users\\hanaz\\OneDrive\\Рабочий стол\\Examen\\Examen\\wwwroot\\img\\StateOstroVa.webp",
+      "PackagePath": "staticwebassets\\img\\StateOstroVa.webp"
+    },
+    {
+      "Id": "C:\\Users\\hanaz\\OneDrive\\Рабочий стол\\Examen\\Examen\\wwwroot\\img\\Subslide1.webp",
+      "PackagePath": "staticwebassets\\img\\Subslide1.webp"
+    },
+    {
+      "Id": "C:\\Users\\hanaz\\OneDrive\\Рабочий стол\\Examen\\Examen\\wwwroot\\img\\Subslide2.webp",
+      "PackagePath": "staticwebassets\\img\\Subslide2.webp"
+    },
+    {
+      "Id": "C:\\Users\\hanaz\\OneDrive\\Рабочий стол\\Examen\\Examen\\wwwroot\\img\\Subslide21.webp",
+      "PackagePath": "staticwebassets\\img\\Subslide21.webp"
+    },
+    {
+      "Id": "C:\\Users\\hanaz\\OneDrive\\Рабочий стол\\Examen\\Examen\\wwwroot\\img\\SubslidePossible.webp",
+      "PackagePath": "staticwebassets\\img\\SubslidePossible.webp"
+    },
+    {
+      "Id": "C:\\Users\\hanaz\\OneDrive\\Рабочий стол\\Examen\\Examen\\wwwroot\\img\\SubslideReal3.webp",
+      "PackagePath": "staticwebassets\\img\\SubslideReal3.webp"
+    },
+    {
+      "Id": "C:\\Users\\hanaz\\OneDrive\\Рабочий стол\\Examen\\Examen\\wwwroot\\img\\Telegram.png",
+      "PackagePath": "staticwebassets\\img\\Telegram.png"
+    },
+    {
+      "Id": "C:\\Users\\hanaz\\OneDrive\\Рабочий стол\\Examen\\Examen\\wwwroot\\img\\VKontacte.png",
+      "PackagePath": "staticwebassets\\img\\VKontacte.png"
+    },
+    {
+      "Id": "C:\\Users\\hanaz\\OneDrive\\Рабочий стол\\Examen\\Examen\\wwwroot\\img\\Va_148.webp",
+      "PackagePath": "staticwebassets\\img\\Va_148.webp"
+    },
+    {
+      "Id": "C:\\Users\\hanaz\\OneDrive\\Рабочий стол\\Examen\\Examen\\wwwroot\\img\\YourFuture.png",
+      "PackagePath": "staticwebassets\\img\\YourFuture.png"
+    },
+    {
+      "Id": "C:\\Users\\hanaz\\OneDrive\\Рабочий стол\\Examen\\Examen\\wwwroot\\img\\page1.webp",
+      "PackagePath": "staticwebassets\\img\\page1.webp"
+    },
+    {
+      "Id": "C:\\Users\\hanaz\\OneDrive\\Рабочий стол\\Examen\\Examen\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\hanaz\\OneDrive\\Рабочий стол\\Examen\\Examen\\wwwroot\\manifest.webmanifest",
+      "PackagePath": "staticwebassets\\manifest.webmanifest"
+    },
+    {
+      "Id": "C:\\Users\\hanaz\\OneDrive\\Рабочий стол\\Examen\\Examen\\wwwroot\\sample-data\\weather.json",
+      "PackagePath": "staticwebassets\\sample-data\\weather.json"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.Examen.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.build.Examen.props",
+      "PackagePath": "build\\Examen.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.Examen.props",
+      "PackagePath": "buildMultiTargeting\\Examen.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.buildTransitive.Examen.props",
+      "PackagePath": "buildTransitive\\Examen.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

@@ -1,0 +1,44 @@
+﻿@inherits LayoutComponentBase
+@using MudBlazor.Services
+
+
+<MudThemeProvider />
+<MudDialogProvider />
+<MudSnackbarProvider />
+
+
+@*Здесь была ошибка, как оказалось - это был сбой в моих CSS свойствах*@
+    <div class="">
+        <NavMenu />
+    
+    </div>
+    <br>
+    <br>
+    <main class="mymain">
+            @Body
+    </main>
+
+@* @if (isHidden == true)
+    {<div>
+        Этот элемент будет скрыт или отображен в зависимости от значения переменной @isHidden.
+    </div>
+    }
+
+<MudButton Variant="Variant.Text" OnClick="ToggleVisibility">Click me</MudButton> *@
+
+
+@code {
+
+    //этот код подсасывается к событиям браузера и перенимает размеры текущего окна
+
+    private bool isHidden = true;
+
+    //вот тут он кончается
+    private void ToggleVisibility()
+    {
+        isHidden = !isHidden;
+    }
+
+}
+
+
